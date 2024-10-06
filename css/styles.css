@@ -1144,6 +1144,9 @@ a {
     max-width: 1158px;
     padding: 0 15px;
   }
+  .section {
+    padding: 120px 0;
+  }
   .mobile-menu {
     display: none;
   }
@@ -1189,9 +1192,7 @@ a {
     background-color: #f4f4fd;
     margin-bottom: 8px;
   }
-  .section {
-    padding: 120px 0;
-  }
+
   .about-desc {
     font-weight: 400;
     font-size: 16px;
