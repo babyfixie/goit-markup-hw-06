@@ -1159,6 +1159,12 @@ a {
     align-items: center;
     gap: 40px;
   }
+  .contacts-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
   .hero-title {
     max-width: 496px;
     margin-bottom: 48px;
