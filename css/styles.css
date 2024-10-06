@@ -108,6 +108,7 @@ a {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  z-index: 100;
 }
 .container.mobile-menu-container {
   position: relative;
@@ -115,6 +116,7 @@ a {
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100%;
 }
 .mobile-menu-close {
@@ -143,7 +145,6 @@ a {
   justify-content: flex-start;
   flex-direction: column;
   gap: 40px;
-  margin-bottom: 168px;
 }
 .mobile-nav-link.current {
   font-family: "Roboto", sans-serif;
@@ -152,6 +153,9 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #404bbf;
+}
+.mobile-contacts {
+  margin-bottom: 48px;
 }
 .mobile-nav-link {
   font-family: "Roboto", sans-serif;
@@ -169,7 +173,6 @@ a {
   gap: 24px;
   width: 193px;
   height: 72px;
-  margin-bottom: 48px;
 }
 .mobile-contacts-tel {
   font-family: "Roboto", sans-serif;
@@ -219,7 +222,6 @@ a {
   align-items: center;
   justify-content: center;
   gap: 40px;
-  margin-bottom: 40px;
 }
 .mobile-icon-list {
   width: 40px;
@@ -300,7 +302,7 @@ a {
   max-width: 1440px;
   margin: 0 auto;
   color: #fff;
-  padding: 188px 0;
+  padding: 72px 0;
   text-align: center;
 }
 
@@ -575,7 +577,7 @@ a {
 
 .page-footer {
   background: #2e2f42;
-  padding: 96px 16px;
+  padding: 96px 0;
 }
 .page-footer .footer-container {
   display: flex;
@@ -1006,10 +1008,9 @@ a {
     padding: 112px 0;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-people-tab-1x.jpg);
   }
-  @media screen and (min-width: 768px) {
-    .hero {
-      background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-people-tab-2x.jpg);
-    }
+
+  .hero {
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-people-tab-2x.jpg);
   }
   .hero-title {
     max-width: 496px;
@@ -1174,6 +1175,9 @@ a {
   }
   .about {
     width: 264px;
+  }
+  .about-title {
+    font-size: 20px;
   }
   .about-list {
     gap: 24px;
